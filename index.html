@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- material icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!-- there are 3 layout in  a dashboard -->
+    <section class="Container">
+        <!--left side section tag -->
+        <aside class="left-side">
+            <!-- top start -->
+            <div class="top">
+                <div class="logo">
+                    <h2>Web<span>Scrapper</span></h2>
+                </div>
+                <div class="close" id="close_btn">
+                    <span><i class="fa fa-times"></i></span>
+                </div>
+            </div>
+            <!-- top start ends-->
+            <div class="sidebar">
+                <!-- first -->
+                <a href="#">
+                    <span>
+                        <i class="fa fa-th-large"></i>
+                    </span>
+                    <h3>Dashboard</h3>
+                </a>
+                <!-- first ends-->
+                <!-- second -->
+                <a href="#" class="active">
+                    <span>
+                        <i class="fa fa-user"></i>
+                    </span>
+                    <h3>Customers</h3>
+                </a>
+                <!-- second ends-->
+                <!-- third -->
+                <a href="#">
+                    <span>
+                        <i class="fa fa-bar-chart"></i>
+                    </span>
+                    <h3>Analytics</h3>
+                </a>
+                <!-- third ends-->
+                <!-- fourth -->
+                <a href="#">
+                    <span>
+                        <i class="fa fa-envelope-o"></i>
+                    </span>
+                    <h3>Messages</h3>
+                </a>
+                <!-- fourth ends-->
+                <!-- fifth -->
+                <a href="#">
+                    <span>
+                        <i class="fa fa-cube"></i>
+                    </span>
+                    <h3>Products</h3>
+                </a>
+                <!-- fifth ends-->
+                <!-- sixth -->
+                <a href="#">
+                    <span>
+                        <i class="fa fa-file-text "></i>
+                    </span>
+                    <h3>Reports</h3>
+                </a>
+                <!-- sixth ends-->
+                <!-- seventh -->
+                <a href="#">
+                    <span>
+                        <i class="fa fa-cog"></i>
+                    </span>
+                    <h3>settings</h3>
+                </a>
+                <!-- seventh ends-->
+                <!-- eight -->
+                <a href="#">
+                    <span>
+                        <i class="fa fa-plus"></i>
+                    </span>
+                    <h3>add products</h3>
+                </a>
+                <!-- eight ends-->
+                <!-- ninth -->
+                <a href="#">
+                    <span>
+                        <i class="fa fa-sign-out"></i>
+                    </span>
+                    <h3>Log out</h3>
+                </a>
+                <!-- ninth ends-->
+            </div>
+        </aside>
+        <!--left side section tag ends-->
+        <!-- main section tag ends-->
+        <main class="main">
+            <h1>Dashboard</h1>
+            <!-- date -->
+            <div class="date">
+                <input type="date">
+            </div>
+            <!-- date ends-->
+            <!-- start insights -->
+            <div class="insights">
+                <!-- start selling -->
+                <div class="sales">
+                    <!-- icon -->
+                    <span>
+                        <i class="fa fa-line-chart"></i>
+                    </span>
+                    <!-- icon ends-->
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Sales</h3>
+                            <h1>$25,023</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle r="30" cy="40" cx="40"></circle>
+                            </svg>
+                            <div class="number">80%</div>
+                        </div>
+                    </div>
+                    <small>Last 24 Hours</small>
+                </div>
+                <!-- end selling -->
+                <!-- start Expenses -->
+
+                <div class="Expenses">
+                    <!-- icon -->
+                    <span>
+                        <i class="fa fa-shopping-bag"></i>
+                    </span>
+                    <!-- icon ends-->
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Expenses</h3>
+                            <h1>$25,023</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle r="30" cy="40" cx="40"></circle>
+                            </svg>
+                            <div class="number">80%</div>
+                        </div>
+                    </div>
+                    <small>Last 24 Hours</small>
+                </div>
+
+                <!-- end expenses -->
+                <!-- start income -->
+                <div class="income">
+                    <!-- icon -->
+                    <span>
+                        <i class="fa fa-money"></i>
+                    </span>
+                    <!-- icon ends-->
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Income</h3>
+                            <h1>$25,023</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle r="30" cy="40" cx="40"></circle>
+                            </svg>
+                            <div class="number">80%</div>
+                        </div>
+                    </div>
+                    <small>Last 24 Hours</small>
+                </div>
+                <!-- end income-->
+            </div>
+            <!-- end insights -->
+            <!-- start recent orders -->
+            <div class="recent_order">
+                <h1>Recent Orders</h1>
+                <table>
+                    <!-- table head -->
+                    <thead>
+                        <tr>
+                            <th>Product Name</th>
+                            <th>Product Number</th>
+                            <th>Payments</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <!-- ends table head -->
+                    <!-- table body -->
+                    <tbody>
+                        <!-- first -->
+                        <tr>
+                            <td>Mini USD</td>
+                            <td>456</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <!-- first ends-->
+                        <!-- second -->
+                        <tr>
+                            <td>Mini USD</td>
+                            <td>456</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <!-- second ends-->
+                        <!-- third -->
+                        <tr>
+                            <td>Mini USD</td>
+                            <td>456</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <!-- third ends-->
+                        <!-- fourth -->
+                        <tr>
+                            <td>Mini USD</td>
+                            <td>456</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <!-- fourth ends-->
+                    </tbody>
+                    <!-- ends table body -->
+                </table>
+            </div>
+            <!-- ends recent orders -->
+        </main>
+        <!-- main section tag ends-->
+
+        <!-- right side section tag ends-->
+        <side class="right-side">
+            <!-- top -->
+            <div class="top">
+                <button id="menu-bar">
+                    <span><i class="fa fa-bars"></i></span>
+                </button>
+                <div class="theme-toggler">
+                    <span class="active"><i class="fa faF-adjust"></i></span>
+                    <span><i class="fa fa-moon-o"></i></span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p><b>Wasay T.</b></p>
+                        <p>Admin</p>
+                        <small class="text-muted"></small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="file.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- top ends-->
+            <!-- start updates -->
+            <div class="recent-updates">
+                <h2>Recent Updates</h2>
+                <div class="updates">
+                    <!-- first -->
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="hacker.jpeg" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>Wasay </b>Recieved his orders</p>
+                        </div>
+                    </div>
+                    <!-- first ends-->
+                    <!-- second -->
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="hacker.jpeg" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>Wasay  </b>Recieved his orders</p>
+                        </div>
+                    </div>
+                    <!-- second ends-->
+                    <!-- third -->
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="hacker.jpeg" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>Wasay </b>Recieved his orders</p>
+                        </div>
+                    </div>
+                    <!-- third ends-->
+                </div>
+            </div>
+            <!-- ends updates -->
+            <div class="sales-analytics">
+                <h2>Sales Analytics</h2>
+                <!-- first -->
+                <div class="item online">
+                    <div class="icon">
+                        <span><i class="fa fa-shopping-cart"></i></span>
+                    </div>
+                    <div class="right-text">
+                        <div class="info">
+                            <h3>Online Orders</h3>
+                            <small class="text-muted">Last Seen 2 Hours</small>
+                        </div>
+                        <h5 class="danger">17%</h5>
+                        <h3>3849</h3>
+                    </div>
+                </div>
+                <!-- first ends-->
+                <!-- Second -->
+                <div class="item online">
+                    <div class="icon">
+                        <span><i class="fa fa-shopping-cart"></i></span>
+                    </div>
+                    <div class="right-text">
+                        <div class="info">
+                            <h3>Online Orders</h3>
+                            <small class="text-muted">Last Seen 2 Hours</small>
+                        </div>
+                        <h5 class="danger">17%</h5>
+                        <h3>3849</h3>
+                    </div>
+                </div>
+                <!-- Second ends-->
+                <!-- third -->
+                <div class="item online">
+                    <div class="icon">
+                        <span><i class="fa fa-shopping-cart"></i></span>
+                    </div>
+                    <div class="right-text">
+                        <div class="info">
+                            <h3>Online Orders</h3>
+                            <small class="text-muted">Last Seen 2 Hours</small>
+                        </div>
+                        <h5 class="danger">17%</h5>
+                        <h3>3849</h3>
+                    </div>
+                </div>
+                <!-- third ends-->
+            </div>
+            <div class="add-products">
+                <div><span>
+                        <i class="fa fa-plus"></i>
+                    </span>
+                </div>
+            </div>
+        </side>
+        <!-- right side section tag ends-->
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
